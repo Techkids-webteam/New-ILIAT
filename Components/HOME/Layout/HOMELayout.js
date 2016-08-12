@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import Header from "../Header/Header";
 import FullBanner from "../FullBanner/FullBanner";
 import ILIATContentBlock from "../ILIATContentBlock/ILIATContentBlock";
-import ILIATMemberList from "../ILIATContents/ILIATMemberList";
 import ILIATintruduceRight from "../ILIATContents/ILIATintruduceRight";
 import ILIATFooter from "../ILIATFooter/ILIATFooter";
 import ILIATHomeImages from "../ILIATContents/ILIATHomeImages";
