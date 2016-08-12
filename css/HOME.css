@@ -124,6 +124,9 @@ html{
 #home .images{
   margin-bottom: 10px;
 }
+#home .images img{
+  max-width: 100%;
+}
 #home .intruduce_right h2{
   font-size: 2.4rem;
   text-align: right;
