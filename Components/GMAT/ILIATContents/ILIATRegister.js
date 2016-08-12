@@ -9,7 +9,7 @@ export default class ILIATRegister extends React.Component{
     };
   	componentDidMount() {
         $.ajax({
-            url: './json/jsonGMAT/ILIATRegister.json',
+            url: './json/jsonGmat/ILIATRegister.json',
             // dataType: 'json',
             cache: false,
             success: function(res){

@@ -9,7 +9,7 @@ export default class ILIATTuitionFee extends React.Component{
     };
   componentDidMount() {
         $.ajax({
-            url: './json/jsonGMAT/ILIATTuitionFee.json',
+            url: './json/jsonGmat/ILIATTuitionFee.json',
             // dataType: 'json',
             cache: false,
             success: function(res){
