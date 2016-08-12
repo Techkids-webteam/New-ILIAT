@@ -32,8 +32,8 @@ export default class ILIATRegister extends React.Component{
         console.log("data:" + this.state.data);
         var Comments = this.state.data.map((comment)=>{
 		return(
-			<div className="row ">
-				<div className="col-sm-offset-4 col-sm-8 text-center Register">
+			<div className="row" key={comment.id}>
+				<div className="col-sm-offset-4 col-sm-8 text-center Register " >
 					<h1 dangerouslySetInnerHTML={this.rawMarkup(comment.Title)}></h1>
 					<p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}></p>
 					<ILIATButton>ĐĂNG KÝ NGAY</ILIATButton>

@@ -1,4 +1,5 @@
 import React from "react";
+import ILIATHowTwo from "./ILIATHowTwo";
 import ILIATButton from "../ILIATButton/ILIATButton";
 
 export default class ILIATHow extends React.Component{
@@ -75,6 +76,7 @@ export default class ILIATHow extends React.Component{
             <h2>Học tại ILIAT như thế nào</h2>
             <h4 className="text-left">Lộ trình tinh gọn. Hiệu quả cao. Chi phí thấp. Học là (đam) &quot;mê&quot;!</h4>
             <div>{Comments}</div>
+            <ILIATHowTwo/>
           </article>
         )
       }
