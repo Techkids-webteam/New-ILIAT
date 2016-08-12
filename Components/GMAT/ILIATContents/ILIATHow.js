@@ -10,7 +10,7 @@ export default class ILIATHow extends React.Component{
     };
     componentDidMount() {
         $.ajax({
-            url: '../../../json/jsonGMAT/ILIATHow.json',
+            url: './json/jsonGmat/ILIATHow.json',
             // dataType: 'json',
             cache: false,
             success: function(res){
