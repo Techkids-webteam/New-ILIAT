@@ -9,7 +9,7 @@ export default class ILIATIntroduction extends React.Component{
     };
     componentDidMount() {
       $.ajax({
-        url: './json/jsonHOME/ILIATHomeImages.json',
+        url: './json/jsonHome/ILIATHomeImages.json',
         // dataType: 'json',
         cache: false,
         success: function(res){
