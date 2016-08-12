@@ -1,0 +1,255 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#home .ilat_content_block{
+  padding: 30px 0;
+}
+#home #header{
+  background: #ffffff;
+  border: 1px solid #a1a1a1;
+  border-radius: 0;
+}
+#home .navbar-brand{
+  padding: 12px 0 8px 15px;
+  line-height: 44px;
+}
+#home .navbar-brand img{
+  max-height: 31px;
+  width: auto;
+}
+#home #header_nav{
+  text-align: right;
+}
+#home .header_list li a{
+  font-size: 2rem;
+  color: #000000;
+  text-align: left;
+  font-weight: 300;
+}
+#home .header_dropdown_list li Link{
+  font-size: 1.8rem;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#home .header_dropdown_list li a:hover{
+  color: #beb7b7;
+}
+#home .full_banner{
+  min-height: 100vh;
+  -webkit-min-height: 100vh;
+  padding-bottom: 90px;
+  position: relative;
+}
+#home .full_banner{
+  background: gray url('/images/GMAT_Banner_mobile.png') center center no-repeat;
+  background-size: cover;
+}
+#home .full_banner h1{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  margin: 0;
+}
+#home .full_banner h1:last-of-type{
+  margin-bottom: 15px;
+}
+
+#home .ILIATHomeImages h1{
+  font-family:  'SVN-Agency FB',sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#home .banner_arrow{
+  border: 0 none;
+  background: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  animation: banner_arrow_animate .5s infinite ease-in-out alternate;
+}
+
+#home .iliat_dropdown_button{
+  width: 100%;
+  border: 2px solid #4d4d4d;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 7px 20px;
+  text-align: left;
+  position: relative;
+  font-weight: 400;
+}
+
+#home .footer{
+  text-align: left;
+}
+#home .footer{
+  background: #4d4d4d;
+  padding: 30px 0;
+  color: #ffffff;
+  font-weight: 100;
+  
+}
+
+#home .footer_col{
+  margin-bottom: 30px;
+}
+
+#home .footer h3{
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+#home .footer a{
+  color: inherit;
+}
+
+#home .footer nav a{
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#home .footer_logo{
+  margin-bottom: 15px;
+}
+#home .images{
+  margin-bottom: 10px;
+}
+#home .intruduce_right h2{
+  font-size: 2.4rem;
+  text-align: right;
+}
+#home .intruduce_right{
+  position: relative;
+  top: 20px;
+  left: 30px;
+  padding: 0;
+}
+#home .intruduce h1{
+  font-size: 6rem;
+  font-family: 'SVN-Agency FB',sans-serif;
+  font-weight: 600;
+
+}
+#home .intruduce_right_img{
+  margin-top: 20px;
+}
+#home .intruduce_rig h2 strong{
+  font-size: 4rem;
+}
+
+#home .intruduce_right_name{
+  float: left;
+  position: relative;
+  top:14px;
+  right: 10px;
+}
+#home .intruduce_right_name strong{
+  font-size: 2.4rem;
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight:600;  
+
+}
+#home .intruduce_content p{
+  padding: 0;
+  margin:0;
+  font-size: 1.5rem;
+}
+#home .vertical_divider{
+  width: 1px;
+  height: 20em;
+  background-color: #4d4d4d;
+  position: relative;
+  top:40px;
+  padding: 0;
+  margin: 0;
+}
+#home .ILIATintruducePoint_between{
+  position: relative;
+  left: 30px;
+}
+#home .ILIATintruducePoint_right{
+  margin-top: 30px;
+}
+#home .ILIATintruducePoint_right strong strong{
+  font-family: 'SVN-Agency FB',sans-serif;
+  color:#00a1ed;
+  font-size: 3.4rem;
+}
+
+#home .ILIATintruducePoint_right {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+#home .ILIATintruducePoint_right strong{
+  font-weight: 400;
+}
+#home .ILIATintruducePoint_img{
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px){
+#home .full_banner{
+  background: gray url('/images/GMAT_Banner.png') center center no-repeat;
+  background-size: cover;
+}
+#home .header_dropdown{
+  padding: 17px 54px;
+}
+#home .header_dropdown_list li a{
+  font-size: 1.8rem;
+  padding: 5px 31px;
+  margin: 0;  
+}
+}
+@keyframes banner_arrow_animate {
+  from{
+    bottom: 35px;
+  }
+  to{
+    bottom: 25px;
+  }
+}
+
+/*
+ *  GLOBAL OVERRIDES
+ */
+#home .slick-slide:focus{
+ outline: 0 none;
+}
+
+#home .slick-dots{
+  padding: 0;
+  margin: 0 0 0 330px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0px;
+}
+
+#home .slick-dots li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#home .slick-dots li button{
+  border: 0 none;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background: #4d4d4d;
+  display: block;
+  font-size: 0;
+}
+ #home .slick-dots li.slick-active button,
+ .slick-dots li button:active{
+  background: #00a1ed;
+}

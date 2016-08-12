@@ -1,0 +1,20 @@
+[
+ 	{
+		 "id": "1",
+		 "url":"../images/introduction_one.png",
+		 "FirstLine": "400+ học viên đã tốt nghiệp tại ILIAT đạt thành tích cao:",
+		 "SecondLine": "70% đạt 700+; > 89.6% học viên đạt 650+.\n\n Họ đã thành công, bạn cũng thế!"
+	},
+	{
+	  	"id": "2",
+	  	"url":"../images/introduction_two.png",
+	  	"FirstLine": "ILIAT luôn lấy chất lượng học viên làm hàng đầu! Ở đây, sau mỗi khóa học, đội ngũ giảng viên luôn cải tiến giáo trình và phương pháp dạy. Các bạn sẽ được làm quen với mô hình kết hợp đa chiều **Học - Ôn - Luyện**.\n\n Có gì mới ở mô hình này?", 
+	  	"SecondLine": "**-Học**: Các lớp học được thiết kế với không khí tranh luận sôi động, thoải mái đảm bảo bạn có thể tiếp thu toàn diện kiến thức sau mỗi buổi học.\n\n**-Ôn**: Phương pháp nhóm tự ôn có giảng viên hỗ trợ giúp bạn ôn tập lại kiến thức, giải quyết triệt để bài tập; rèn luyện kỹ năng đọc xuyên suốt khóa học\n\n**-Luyện**: Test liên tục theo phương pháp nghiền nát. Giúp bạn xóa tan mọi áp lực thời gian và tâm lí phải đối mặt trong kỳ thi thực tế. Sau mỗi lần, trợ giảng sẽ chữa đề và hướng dẫn cẩn thận."
+	},
+	{
+		"id": "3",
+		"url":"../images/introduction_three.png",
+		"FirstLine": "ILIAT luôn hỗ trợ bạn tối đa!",
+		"SecondLine":"-ILIAT tặng bạn khóa học Pronounciation đối với học viên đăng ký sớm.\n\n-Đội ngũ giảng viên và chăm sóc sẵn sàng hỗ trợ 1-1 khi học viên cần!\n\n-Tư vấn 1-1 chiến thuật phòng thi với học viên sắp bước vào kỳ thi.\n\n-Sử dụng cơ sở miễn phí vật chất tại ILIAT dành cho các nhóm tự ôn."
+	}
+]

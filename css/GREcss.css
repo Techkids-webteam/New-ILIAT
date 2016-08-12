@@ -1,0 +1,528 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#gre #header{
+  background: #ffffff;
+  border: 1px solid #a1a1a1;
+  border-radius: 0;
+}
+
+#gre .navbar-brand{
+  padding: 12px 0 8px 15px;
+  line-height: 44px;
+}
+
+#gre .navbar-brand img{
+  max-height: 31px;
+  width: auto;
+}
+
+#gre #header_nav{
+  text-align: right;
+}
+
+#gre .full_banner{
+  min-height: 100vh;
+  -webkit-min-height: 100vh;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+#gre .full_banner{
+  background: gray url('/images/GRE_Benner.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#gre .full_banner h1{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  margin: 0;
+}
+#gre .full_banner h1:last-of-type{
+  margin-bottom: 15px;
+}
+
+#gre .iliat_button{
+  background: #a96eb8;
+  color: #ffffff;
+  border: 1px solid #a96eb8;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+#gre .iliat_button:hover{
+  background: #ffffff;
+  color: #a96eb8;
+}
+
+#gre .fullbanner_content img{
+  display: block;
+  max-width: 89vw;
+  -webkit-max-width: 89vw;
+  margin-bottom: 10px;
+}
+
+#gre .banner_arrow{
+  border: 0 none;
+  background: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  animation: banner_arrow_animate .5s infinite ease-in-out alternate;
+}
+
+#gre .iliat_dropdown_button{
+  width: 100%;
+  border: 2px solid #4d4d4d;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 7px 20px;
+  text-align: left;
+  position: relative;
+  font-weight: 400;
+}
+
+#gre .dropdown_plus{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
+#gre .iliat_dropdown{
+  position: static;
+  float: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+#gre .iliat_dropdown li a{
+  border: 2px solid #4d4d4d;
+  background: #4d4d4d;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-weight: 400;
+}
+
+#gre .iliat_dropdown li a:hover{
+  background: #ffffff;
+  color: #4d4d4d;
+}
+
+#gre .iliat_navigator_desktop{
+  top: 60px;
+  left: 54px;
+}
+
+#gre .iliat_navigator_mobile{
+  margin: 15px 0;
+}
+
+#gre .iliat_navigator_list{
+  background: #4d4d4d;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#gre .iliat_navigator_list li{
+  list-style: none;
+  position: relative;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#gre .iliat_navigator_list li a{
+  color: inherit;
+  padding: 0;
+}
+
+#gre .iliat_navigator_list li a:hover{
+  background: transparent;
+  text-decoration: underline;
+}
+#gre .iliat_navigator_list li a:focus,
+.iliat_navigator_list li a:active{
+  background: transparent;
+}
+
+#gre .iliat_navigator_list .highlight{
+  background: #252525;
+  border-bottom: 1px solid #616161;
+}
+
+#gre .iliat_navigator_list .active{
+  background: #a96eb8;
+}
+
+#gre .iliat_navigator_list .active:after{
+  content: "";
+  border: 10px solid transparent;
+  border-left: 10px solid #a96eb8;
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(0, -10px);
+}
+
+#gre .iliat_navigator_list button{
+  padding: 15px;
+  width: 6em;
+  background: #a96eb8;
+  color: #ffffff;
+  border: 0 none;
+  border-bottom: 5px solid #9559a4;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 10px auto;
+  display: block;
+}
+
+#gre .ilat_content_block{
+  padding: 60px 0;
+}
+
+#gre .ilat_content_block h2{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#gre .ilat_content_block h4{
+  text-align: center;
+}
+
+#gre .ilat_content_block h4.text-left{
+  text-align: left;
+}
+
+#gre .gray_bg{
+  background: #e6e6e6;
+}
+
+#gre .iliat_member_thumbnail{
+  display: block;
+  margin: 0 auto 25px;
+  border: 4px solid #a96eb8;
+}
+
+#gre .iliat_timeline{
+  margin-bottom: 30px;
+  font-size: 0.5rem;
+}
+
+#gre .iliat_timeline *{
+  vertical-align: bottom;
+}
+
+#gre .highlight_hours{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size:  4em;
+  text-transform: uppercase;
+  color: #a96eb8;
+}
+
+#gre .big_equal_sign{
+  display: inline-block;
+  margin: 0 1.2em;
+}
+
+#gre .iliat_equal_piece{
+  height: 1em;
+  margin: 1.1em 0;
+  width: 5em;
+  background: #a96eb8;
+}
+
+#gre .timetable{
+  display: inline-block;
+}
+
+#gre .timetable h4{
+  font-size: 2.5em;
+  margin: 0.2em 0;
+}
+
+#gre .vertical_divider{
+  display: inline-block;
+  width: 2px;
+  height: 6em;
+  background: #a96eb8;
+  margin: 0 4em;
+}
+.TuitionFee_content{
+  padding: 0 15px;
+}
+#gre .TuitionFee_content p{
+  margin: 0;
+  font-size: 1.5rem;
+}
+#gre .TuitionFee_content_desktop .iliat_button{
+  font-size: 2rem;
+  margin: 0;
+  position: relative;
+  line-height: 2em;
+  white-space: nowrap;
+}
+#gre .TuitionFee_content_desktop p{
+  font-size: 2.4rem;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+#gre .iliat_timeline .iliat_button{
+  width: 7em;
+  font-size: 2em;
+  margin: 0;
+  position: relative;
+  line-height: 1.2em;
+}
+
+#gre .iliat_steps{
+  margin-top: 30px;
+}
+
+#gre .iliat_step_arrow{
+  background: #a96eb8;
+  color: #ffffff;
+  font-weight: bold;
+  width: 90%;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  left: -7px;
+}
+
+#gre .iliat_step_arrow:before{
+  content: "";
+  border: 15px solid transparent;
+  border-left: 15px solid #ffffff;
+  left: 0px;
+  top: 0;
+  position: absolute;
+}
+
+#gre .iliat_step_arrow:after{
+  content: "";
+  border: 15px solid transparent;
+  border-left: 15px solid #a96eb8;
+  right: -30px;
+  top: 0;
+  position: absolute;
+}
+
+#gre .price_tag{
+  background: #ffffff;
+  border: 5px dashed #a96eb8;
+  font-size: 0;
+  height: 9rem;
+  width: 100%;
+  white-space: nowrap;
+  margin: 15px 0 30px;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+#gre .price_tag:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
+
+#gre .price_tag_content{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#gre .price_tag_content h3,
+.price_tag_content p{
+  margin: 10px;
+}
+
+#gre .price_tag_content p{
+  font-size: 14px;
+}
+
+#gre .price_tag_content h3{
+  color: #000000;
+}
+#gre .price_tag_content strong p{
+  font-size: 4rem;
+}
+#gre .footer{
+  background: #4d4d4d;
+  padding: 30px 0;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+}
+
+#gre .footer_col{
+  margin-bottom: 30px;
+}
+
+#gre .footer h3{
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+#gre .footer a{
+  color: inherit;
+}
+
+#gre .footer nav a{
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#gre .footer_logo{
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px){
+  #gre #header_nav{
+    text-align: center;
+  }
+  #gre #header_nav .center_menu{
+    display: inline-block;
+    float: none;
+  }
+
+  #gre #header_nav .iliat_header_button{
+    background: #a96eb8;
+    color: #ffffff;
+    border: 1px solid #a96eb8;
+    padding: 7px 15px;
+    margin: 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+
+  #gre #header_nav .iliat_header_button:hover{
+    background: transparent;
+    color: #a96eb8;
+  }
+
+  #gre .iliat_button{
+    background: #a96eb8;
+    color: #ffffff;
+    border: 1px solid #a96eb8;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    font-weight: 100;
+  }
+  #gre .fullbanner_content img{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  #gre .ilat_content_block h2{
+    font-size: 7rem;
+    text-align: left;
+  }
+
+  #gre .iliat_timeline{
+    font-size: 1rem;
+  }
+
+  #gre .iliat_step_arrow{
+    height: 60px;
+    padding-left: 30px;
+    font-size: 3em;
+  }
+
+  #gre .iliat_step_arrow:before{
+    border-width: 30px;
+  }
+
+  #gre .iliat_step_arrow:after{
+    border-width: 30px;
+    right: -60px;
+  }
+
+  #gre .footer{
+    text-align: left;
+  }
+}
+
+@keyframes banner_arrow_animate {
+  from{
+    bottom: 35px;
+  }
+  to{
+    bottom: 25px;
+  }
+}
+
+/*
+ *  GLOBAL OVERRIDES
+ */
+.slick-slide:focus{
+ outline: 0 none;
+}
+
+.slick-dots{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slick-dots li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.slick-dots li button{
+  border: 0 none;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #4d4d4d;
+  display: block;
+  font-size: 0;
+}
+ #gre .slick-dots li.slick-active button,
+ .slick-dots li button:active{
+  background: #a96eb8;
+}

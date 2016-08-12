@@ -1,0 +1,610 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#gmat #header{
+  background: #ffffff;
+  border: 1px solid #a1a1a1;
+  border-radius: 0;
+}
+#gmat .navbar-brand{
+  padding: 12px 0 8px 15px;
+  line-height: 44px;
+}
+#gmat .navbar-brand img{
+  max-height: 31px;
+  width: auto;
+}
+#gmat #header_nav{
+  text-align: right;
+}
+
+#gmat .full_banner{
+  min-height: 100vh;
+  -webkit-min-height: 100vh;
+  padding-bottom: 90px;
+  position: relative;
+}
+#gmat .full_banner{
+  background: gray url('/images/GMAT_Banner_mobile.png') center center no-repeat;
+  background-size: cover;
+}
+#gmat .full_banner h1{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  margin: 0;
+}
+#gmat .full_banner h1:last-of-type{
+  margin-bottom: 15px;
+}
+
+#gmat .iliat_button{
+  background: #31c36b;
+  color: #ffffff;
+  border: 1px solid #31c36b;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+#gmat .iliat_button:hover{
+  background: #ffffff;
+  color: #31c36b;
+}
+
+#gmat .fullbanner_content img{
+  display: block;
+  max-width: 89vw;
+  -webkit-max-width: 89vw;
+  margin-bottom: 10px;
+}
+#gmat .fullbanner_content{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+#gmat .fullbanner_content .iliat_button{
+  margin-top: 100px;
+}
+#gmat .banner_arrow{
+  border: 0 none;
+  background: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  animation: banner_arrow_animate .5s infinite ease-in-out alternate;
+}
+
+#gmat .iliat_dropdown_button{
+  width: 100%;
+  border: 2px solid #4d4d4d;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 7px 20px;
+  text-align: left;
+  position: relative;
+  font-weight: 400;
+}
+
+#gmat .dropdown_plus{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
+#gmat .iliat_dropdown{
+  position: static;
+  float: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+#gmat .iliat_dropdown li a{
+  border: 2px solid #4d4d4d;
+  background: #4d4d4d;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-weight: 400;
+}
+
+#gmat .iliat_dropdown li a:hover{
+  background: #ffffff;
+  color: #4d4d4d;
+}
+
+#gmat .iliat_navigator_desktop{
+  top: 60px;
+  left: 54px;
+}
+
+#gmat .iliat_navigator_mobile{
+  margin: 15px 0;
+}
+
+#gmat .iliat_navigator_list{
+  background: #4d4d4d;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#gmat .iliat_navigator_list li{
+  list-style: none;
+  position: relative;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#gmat .iliat_navigator_list li a{
+  color: inherit;
+  padding: 0;
+}
+
+#gmat .iliat_navigator_list li a:hover{
+  background: transparent;
+  text-decoration: underline;
+}
+#gmat .iliat_navigator_list li a:focus,
+.iliat_navigator_list li a:active{
+  background: transparent;
+}
+
+#gmat .iliat_navigator_list .highlight{
+  background: #252525;
+  border-bottom: 1px solid #616161;
+}
+
+#gmat .iliat_navigator_list .active{
+  background: #31c36b;
+}
+
+#gmat .iliat_navigator_list .active:after{
+  content: "";
+  border: 10px solid transparent;
+  border-left: 10px solid #31c36b;
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(0, -10px);
+}
+
+#gmat .iliat_navigator_list button{
+  padding: 15px;
+  width: 6em;
+  background: #31c36b;
+  color: #ffffff;
+  border: 0 none;
+  border-bottom: 5px solid #39a062;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 10px auto;
+  display: block;
+}
+#gmat .circle{
+  background-color:#31c36b;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+#gmat .introduction_content{
+  overflow: hidden;
+}
+#gmat .circle img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#gmat .ilat_content_block{
+  padding: 60px 0;
+}
+
+#gmat .ilat_content_block h2{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#gmat .ilat_content_block h4{
+  text-align: left;
+}
+
+#gmat .ilat_content_block h4.text-left{
+  text-align: left;
+}
+
+#gmat .gray_bg{
+  background: #e6e6e6;
+}
+
+#gmat .iliat_member_thumbnail{
+  display: block;
+  margin: 0 auto 25px;
+  border: 4px solid #31c36b;
+}
+
+#gmat .iliat_timeline{
+  margin-bottom: 30px;
+  font-size: 0.5rem;
+}
+
+#gmat .iliat_timeline *{
+  vertical-align: bottom;
+}
+
+#gmat .highlight_hours{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size:  4em;
+  text-transform: uppercase;
+  color: #31c36b;
+}
+
+#gmat .big_equal_sign{
+  display: inline-block;
+  margin: 0 1.2em;
+}
+
+#gmat .iliat_equal_piece{
+  height: 1em;
+  margin: 1.1em 0;
+  width: 5em;
+  background: #31c36b;
+}
+
+#gmat .timetable{
+  display: inline-block;
+}
+
+#gmat .timetable h4{
+  font-size: 2.5em;
+  margin: 0.2em 0;
+}
+
+#gmat .vertical_divider{
+  display: inline-block;
+  width: 2px;
+  height: 6em;
+  background: #31c36b;
+  margin: 0 4em;
+}
+#gmat .TuitionFee_content{
+  padding: 0 15px;
+}
+#gmat .TuitionFee_content_desktop .iliat_button{
+  font-size: 2rem;
+  margin: 0;
+  position: relative;
+  line-height: 2em;
+  white-space: nowrap;
+}
+#gmat .TuitionFee_content_desktop p{
+  font-size: 2.4rem;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+#gmat .iliat_timeline .iliat_button{
+  width: 7em;
+  font-size: 2em;
+  margin: 0;
+  position: relative;
+  line-height: 1.2em;
+}
+
+#gmat .iliat_steps{
+  margin-top: 30px;
+}
+
+#gmat .iliat_step_arrow{
+  background: #31c36b;
+  color: #ffffff;
+  font-weight: bold;
+  width: 90%;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  left: -7px;
+}
+
+#gmat .iliat_step_arrow:before{
+  content: "";
+  border: 15px solid transparent;
+  border-left: 15px solid #ffffff;
+  left: 0px;
+  top: 0;
+  position: absolute;
+}
+
+#gmat .iliat_step_arrow:after{
+  content: "";
+  border: 15px solid transparent;
+  border-left: 15px solid #31c36b;
+  right: -30px;
+  top: 0;
+  position: absolute;
+}
+
+#gmat .price_tag{
+  background: #ffffff;
+  border: 5px dashed #31c36b;
+  font-size: 0;
+  height: 9rem;
+  width: 100%;
+  white-space: nowrap;
+  margin: 15px 0 30px;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+#gmat .price_tag:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
+
+#gmat .price_tag_content{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#gmat .price_tag_content h3,
+.price_tag_content p{
+  margin: 10px;
+}
+
+#gmat .price_tag_content p{
+  font-size: 14px;
+}
+#gmat .price_tag_content strong p{
+  font-size: 4rem;
+}
+#gmat .TuitionFee_content p{
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#gmat .price_tag_content h3{
+  color: #000000;
+}
+
+#gmat .footer{
+  background: #4d4d4d;
+  padding: 30px 0;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+}
+
+#gmat .footer_col{
+  margin-bottom: 30px;
+}
+
+#gmat .footer h3{
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+#gmat .footer a{
+  color: inherit;
+}
+
+#gmat .footer nav a{
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#gmat .footer_logo{
+  margin-bottom: 15px;
+}
+
+#gmat .How_Tow_Content ul{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+#gmat .How_Tow_Content strong{
+  color: #31c36b;
+  margin-left: 5px;
+}
+#gmat .How_Tow_Title{
+  font-size: 1.2em;
+}
+#gmat .arrow{
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+#gmat .arrow img{
+  float: left;
+  margin-bottom: 10px;
+}
+#gmat .arrow_small img{
+  white-space: nowrap;
+  max-width: 7%;
+  float: left;
+  margin-left: 35px;
+}
+#gmat .ILIATRegister{
+  background: url('/images/ILIATRegister.png');
+}
+#gmat .Register h1{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size:3.5rem; 
+}
+#gmat .Register p{
+  color: #ffffff;
+}
+#gmat .ILIATMemberList_Name p{
+  text-align: center;
+}
+@media screen and (min-width: 768px){
+  #gmat #header_nav{
+    text-align: center;
+  }
+  #gmat #header_nav .center_menu{
+    display: inline-block;
+    float: none;
+  }
+
+  #gmat #header_nav .iliat_header_button{
+    background: #31c36b;
+    color: #ffffff;
+    border: 1px solid #31c36b;
+    padding: 7px 15px;
+    margin: 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+
+  #gmat #header_nav .iliat_header_button:hover{
+    background: transparent;
+    color: #31c36b;
+  }
+
+  #gmat .iliat_button{
+    background: #31c36b;
+    color: #ffffff;
+    border: 1px solid #31c36b;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    font-weight: 100;
+  }
+  #gmat .full_banner{
+    background: gray url('/images/GMAT_Banner.png') center center no-repeat;
+    background-size: cover;
+  }
+
+  #gmat .fullbanner_content img{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  #gmat .fullbanner_content p{
+    color: #ffffff;
+  }
+  #gmat .ilat_content_block h2{
+    font-size: 7rem;
+    text-align: left;
+  }
+
+  #gmat .iliat_timeline{
+    font-size: 1rem;
+  }
+
+  #gmat .iliat_step_arrow{
+    height: 60px;
+    padding-left: 30px;
+    font-size: 3em;
+  }
+
+  #gmat .iliat_step_arrow:before{
+    border-width: 30px;
+  }
+
+  #gmat .iliat_step_arrow:after{
+    border-width: 30px;
+    right: -60px;
+  }
+
+  #gmat .footer{
+    text-align: left;
+  }
+  #gmat .arrow_small img{
+    max-width: 50%;
+    margin-left: 35px;
+  }
+  #gmat .How_Tow_Content{
+    font-size: 1.8rem;
+  }
+  #gmat .Register h1{
+    font-family: 'SVN-Agency FB', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size:5.5rem; 
+  }
+}
+
+@keyframes banner_arrow_animate {
+  from{
+    bottom: 35px;
+  }
+  to{
+    bottom: 25px;
+  }
+}
+
+/*
+ *  GLOBAL OVERRIDES
+ */
+.slick-slide:focus{
+ outline: 0 none;
+}
+
+.slick-dots{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slick-dots li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.slick-dots li button{
+  border: 0 none;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #4d4d4d;
+  display: block;
+  font-size: 0;
+}
+ #gmat .slick-dots li.slick-active button,
+ .slick-dots li button:active{
+  background: #31c36b;
+}

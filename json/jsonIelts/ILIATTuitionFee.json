@@ -1,0 +1,44 @@
+[
+	{
+		"id":"1",
+		"Name":"**IELTS EXPRESS**\n\n(4.0 - 5.5+)",
+		"Price":"**4.500.000 VNĐ**",
+		"Content":"Dành cho học viên mới bắt đầu.\n\nCải thiện từ vựng, ngữ pháp, ngữ\n\n âm và tiếp cận 4 kỹ năng ở mức\n\n độ cơ bản.",
+		"Skill1":"**Writing**",
+		"Guide1":"Luyện tập ngữ pháp và từ vựng theo\n\n 12 chủ đề\n\n Luyện lên dàn ý, viết cấp độ đoạn văn",
+		"Skill2":"**Listening**",
+		"Guide2":"Luyện nghe bản tin hội thoại ngắn,\n\n làm quen với các dạng Listening cơ\n\n bản",
+		"Skill3":"**Speaking**",
+		"Guide3":"Nắm vững quy tắc phát âm căn bản",
+		"Skill4":"**Reading**",
+		"Guide4":"Luyện đọc với các dạng bài đọc đơn giản."
+	},
+	{
+
+		"id":"2",
+		"Name":"**IELTS MASTER**\n\n(5.0 - 6.5+)",
+		"Price":"**5.300.000 VNĐ**",
+		"Content":"Dành cho học viên chưa có kiến\n\n thức sâu về IELTS, mong muốn \n\nhoàn thiện kiến thức và nắm\n\n chắc phương pháp làm bài IELTS",
+		"Skill1":"**Writing**",
+		"Guide1":"Luyện lên bố cục, phát triển ý cho cả 2 \n\ntask Writing, trang bị collocations\n\n, idioms.",
+		"Skill2":"**Listening**",
+		"Guide2":"Luyên nghe nâng cao bản tin hội thoại \n\nngắn",
+		"Skill3":"**Speaking**",
+		"Guide3":"Hoàn thiện phát âm , ngữ điệu và\n\n luyện 3 part Speaking với topic nâng\n\n cao",
+		"Skill4":"**Reading**",
+		"Guide4":"Luyện đọc tất cả các dạng Reading\n\n cấp độ trung bình."
+	},
+	{
+		"id":"3",
+		"Name":"**IELTS MASTER**+\n\n(6.0 - 7.0+)",
+		"Price":"**5.800.000 VNĐ**",
+		"Content":"Dành cho học viên có trình độ\n\n cao và mong muốn cải thiện đặc\n\n biệt là các kĩ năng chủ động \n\n(Writing và Speaking) trước khi \n\nthi IELTS.",
+		"Skill1":"**Writing + Speaking**",
+		"Guide1":"Chuyên sâu 2 kỹ năng Writing & Speaking hướng đến band 7.0+:\n\n Luyện kỹ năng nâng cao, hoàn thiện\n\n bố cục, làm chủ vốn từ vựng học thuật\n\n 10 chủ điểm khó, sử dụng hiệu quả \n\ncollocations, idioms.",
+		"Skill3":"**Listening + Reading**",
+		"Guide3":"Đọc và nghe ở cấp độ khó bằng và\n\n hơn thi thật để nâng band điểm nhiều\n\n nhất.",
+		"Skill4":"**IELTS Mock Test**",
+		"Guide4":"Làm đề thi thật dưới áp lực thời gian.\n\n Chuẩn bị tốt chiến thuật cho bài thi\n\nhiệu quả."
+	}
+	
+]

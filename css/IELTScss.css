@@ -1,0 +1,626 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#ielts #header{
+  background: #ffffff;
+  border: 1px solid #a1a1a1;
+  border-radius: 0;
+}
+
+#ielts .navbar-brand{
+  padding: 12px 0 8px 15px;
+  line-height: 44px;
+}
+
+#ielts .navbar-brand img{
+  max-height: 31px;
+  width: auto;
+}
+
+#ielts #header_nav{
+  text-align: right;
+}
+
+#ielts .full_banner{
+  min-height: 100vh;
+  -webkit-min-height: 100vh;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+#ielts .full_banner{
+  background: gray url('/images/IELTS_Banner.png') center center no-repeat;
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+#ielts .full_banner h1{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  margin: 0;
+  color: #5098cf;
+
+}
+#ielts .full_banner h1:last-of-type{
+  margin-bottom: 15px;
+  color: #5098cf;
+  margin-left: 2em;
+}
+
+#ielts .iliat_button{
+  background: #5098cf;
+  color: #ffffff;
+  border: 1px solid #5098cf;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 100;
+  margin-top: 2em;
+}
+
+#ielts .iliat_button:hover{
+  background: #ffffff;
+  color: #5098cf;
+}
+
+#ielts .fullbanner_content{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+#ielts .banner_arrow{
+  border: 0 none;
+  background: transparent;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  animation: banner_arrow_animate .5s infinite ease-in-out alternate;
+}
+#ielts .circle{
+  background-color:#5098cf;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+#ielts .introduction_content{
+  overflow: hidden;
+}
+#ielts .circle img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#ielts .iliat_dropdown_button{
+  width: 100%;
+  border: 2px solid #4d4d4d;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 7px 20px;
+  text-align: left;
+  position: relative;
+  font-weight: 400;
+}
+
+#ielts .dropdown_plus{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
+#ielts .iliat_dropdown{
+  position: static;
+  float: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+#ielts .iliat_dropdown li a{
+  border: 2px solid #4d4d4d;
+  background: #4d4d4d;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-weight: 400;
+}
+
+#ielts .iliat_dropdown li a:hover{
+  background: #ffffff;
+  color: #4d4d4d;
+}
+
+#ielts .iliat_navigator_desktop{
+  top: 60px;
+  left: 54px;
+}
+
+#ielts .iliat_navigator_mobile{
+  margin: 15px 0;
+}
+
+#ielts .iliat_navigator_list{
+  background: #4d4d4d;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#ielts .iliat_navigator_list li{
+  list-style: none;
+  position: relative;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#ielts .iliat_navigator_list li a{
+  color: inherit;
+  padding: 0;
+}
+
+#ielts .iliat_navigator_list li a:hover{
+  background: transparent;
+  text-decoration: underline;
+}
+#ielts .iliat_navigator_list li a:focus,
+.iliat_navigator_list li a:active{
+  background: transparent;
+}
+
+#ielts .iliat_navigator_list .highlight{
+  background: #252525;
+  border-bottom: 1px solid #616161;
+}
+
+#ielts .iliat_navigator_list .active{
+  background: #5098cf;
+}
+
+#ielts .iliat_navigator_list .active:after{
+  content: "";
+  border: 10px solid transparent;
+  border-left: 10px solid #5098cf;
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(0, -10px);
+}
+
+#ielts .iliat_navigator_list button{
+  padding: 15px;
+  width: 6em;
+  background: #5098cf;
+  color: #ffffff;
+  border: 0 none;
+  border-bottom: 5px solid #1d3d65;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 10px auto;
+  display: block;
+}
+
+#ielts .ilat_content_block{
+  padding: 60px 0;
+}
+
+#ielts .ilat_content_block h2{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#ielts .ilat_content_block h4{
+  text-align: center;
+}
+
+#ielts .ilat_content_block h4.text-left{
+  text-align: left;
+}
+
+#ielts .gray_bg{
+  background: #e6e6e6;
+}
+
+#ielts .iliat_member_thumbnail{
+  display: block;
+  margin: 0 auto 25px;
+  border: 4px solid #5098cf;
+}
+
+#ielts .iliat_timeline{
+  margin-bottom: 30px;
+  font-size: 0.5rem;
+}
+
+#ielts .iliat_timeline *{
+  vertical-align: bottom;
+}
+
+#ielts .highlight_hours{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size:  4em;
+  text-transform: uppercase;
+  color: #5098cf;
+}
+
+#ielts .big_equal_sign{
+  display: inline-block;
+  margin: 0 1.2em;
+}
+
+#ielts .iliat_equal_piece{
+  height: 1em;
+  margin: 1.1em 0;
+  width: 5em;
+  background: #5098cf;
+}
+
+#ielts .timetable{
+  display: inline-block;
+}
+
+#ielts .timetable h4{
+  font-size: 2.5em;
+  margin: 0.2em 0;
+}
+
+#ielts .vertical_divider{
+  display: inline-block;
+  width: 2px;
+  height: 6em;
+  background: #5098cf;
+  margin: 0 4em;
+}
+.TuitionFee_content{
+  padding: 0 15px;
+}
+#ielts .TuitionFee_content_desktop .iliat_button{
+  font-size: 2rem;
+  margin: 0;
+  position: relative;
+  line-height: 2em;
+  white-space: nowrap;
+}
+#ielts .TuitionFee_content_desktop p{
+  font-size: 2.4rem;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+#ielts .iliat_timeline .iliat_button{
+  width: 7em;
+  font-size: 2em;
+  margin: 0;
+  position: relative;
+  line-height: 1.2em;
+}
+
+#ielts .iliat_steps{
+  margin-top: 30px;
+}
+
+#ielts .iliat_step_arrow{
+  background: #5098cf;
+  color: #ffffff;
+  font-weight: bold;
+  width: 90%;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  left: -7px;
+}
+
+#ielts .iliat_step_arrow:before{
+  content: "";
+  border: 15px solid transparent;
+  border-left: 15px solid #ffffff;
+  left: 0px;
+  top: 0;
+  position: absolute;
+}
+
+#ielts .iliat_step_arrow:after{
+  content: "";
+  border: 15px solid transparent;
+  border-left: 15px solid #5098cf;
+  right: -30px;
+  top: 0;
+  position: absolute;
+}
+
+#ielts .price_tag{
+  background: #ffffff;
+  border: 5px dashed #5098cf;
+  font-size: 0;
+  height: 9rem;
+  width: 100%;
+  white-space: nowrap;
+  margin: 15px 0 30px;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+#ielts .price_tag:before{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
+
+#ielts .price_tag_content{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#ielts .price_tag_content h3,
+.price_tag_content p{
+  margin: 10px;
+}
+
+#ielts .price_tag_content p{
+  font-size: 14px;
+}
+
+#ielts .price_tag_content h3{
+  color: #000000;
+}
+
+#ielts .footer{
+  background: #4d4d4d;
+  padding: 30px 0;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+}
+
+#ielts .footer_col{
+  margin-bottom: 30px;
+}
+
+#ielts .footer h3{
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+#ielts .footer a{
+  color: inherit;
+}
+
+#ielts .footer nav a{
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#ielts .footer_logo{
+  margin-bottom: 15px;
+}
+#ielts .ILIATTuitionFee_content{
+   padding: 0 1.2rem;
+}
+#ielts .ILIATTuitionFee_content p{
+  margin: 0;
+}
+#ielts .ILIATTuitionFee_border{
+  border: 2px solid #5098cf;
+  border-radius: 10px;
+  background: #ffffff;
+}
+#ielts .ILIATTuitionFee_in{
+  margin-top: 20px;
+}
+#ielts .ILIATTuitionFee_in h2 p {
+  color: #5098cf;
+  font-family: agencyfontbold;
+  text-align: center;
+  font-size: 3rem;
+}
+#ielts .ILIATTuitionFee_in h2 strong{
+  font-weight: 700;
+}
+#ielts .ILIATTuitionFee_in h3 p{
+  text-align: center;
+}
+#ielts .ILIATTuitionFee_content_introduce{
+  margin-left: 10px;
+  font-weight: 600;
+}
+#ielts .ILIATTuitionFee_button{
+  width: 100%;
+  border-radius: 0 0 7px 7px;
+  padding: 15px 30px;
+  border: 1px solid #5098cf;
+  color: #ffffff;
+  background-color: #5098cf;
+}
+#ielts .ILIATTuitionFee_button:hover{
+  background-color: #ffffff;
+  border: 1px solid #5098cf;
+  color: #5098cf;
+}
+#ielts .ILIATTuitionFeeTwo{
+  margin-top: 40px;
+}
+#ielts .ILIATTuitionFeeTwo_title{
+  font-size: 2rem;
+}
+#ielts .ILIATTuitionFeeTwo_blue{
+  font-size: 2rem;
+  background-color: #5098cf;
+  border: 1px solid #5098cf;
+  color: #ffffff;
+  padding: 10px 50px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+#ielts .ILIATTuitionFeeTwo_blue:hover{
+  background-color: #ffffff;
+  border: 1px solid #5098cf;
+  color: #5098cf;
+}
+#ielts .ILIATTuitionFeeTwo_white{
+  font-size: 2rem;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: 1px solid #000000;
+  padding: 10px 30px;
+  color: #000000;
+}
+#ielts .ILIATTuitionFeeTwo_white:hover{
+  border: 1px solid #000000; 
+  background-color: #000000;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px){
+#ielts #header_nav{
+  text-align: center;
+}
+#ielts #header_nav .center_menu{
+  display: inline-block;
+  float: none;
+}
+
+#ielts #header_nav .iliat_header_button{
+  background: #5098cf;
+  color: #ffffff;
+  border: 1px solid #5098cf;
+  padding: 7px 15px;
+  margin: 8px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+#ielts .full_banner h1{
+  font-family: 'SVN-Agency FB', sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  margin: 0;
+  color: #5098cf;
+}
+#ielts .full_banner h1:last-of-type{
+  margin-bottom: 15px;
+  color: #5098cf;
+  margin-left: 2em;
+}
+#ielts #header_nav .iliat_header_button:hover{
+  background: transparent;
+  color: #5098cf;
+}
+
+#ielts .iliat_button{
+  background: #5098cf;
+  color: #ffffff;
+  border: 1px solid #5098cf;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+#ielts .ilat_content_block h2{
+  font-size: 7rem;
+  text-align: left;
+}
+
+#ielts .iliat_timeline{
+  font-size: 1rem;
+}
+
+#ielts .iliat_step_arrow{
+  height: 60px;
+  padding-left: 30px;
+  font-size: 3em;
+}
+
+#ielts .iliat_step_arrow:before{
+  border-width: 30px;
+}
+
+#ielts .iliat_step_arrow:after{
+  border-width: 30px;
+  right: -60px;
+}
+
+#ielts .footer{
+  text-align: left;
+}
+}
+
+@keyframes banner_arrow_animate {
+  from{
+    bottom: 35px;
+  }
+  to{
+    bottom: 25px;
+  }
+}
+
+/*
+ *  GLOBAL OVERRIDES
+ */
+.slick-slide:focus{
+ outline: 0 none;
+}
+
+.slick-dots{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slick-dots li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.slick-dots li button{
+  border: 0 none;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #4d4d4d;
+  display: block;
+  font-size: 0;
+}
+ #ielts .slick-dots li.slick-active button,
+ .slick-dots li button:active{
+  background: #5098cf;
+}

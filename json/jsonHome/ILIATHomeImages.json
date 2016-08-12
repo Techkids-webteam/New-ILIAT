@@ -1,0 +1,19 @@
+[
+	{
+		"id":"1",
+		"url":"../images/GMAT.png"
+	},
+	{
+		"id":"2",
+		"url":"../images/IELTS.png"
+	},
+	{
+		"id":"3",
+		"url":"../images/GRE.png"
+	},
+	{
+		"id":"4",
+		"url":"../images/CFA.png"
+	}
+
+]
