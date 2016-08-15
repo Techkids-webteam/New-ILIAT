@@ -35,7 +35,7 @@ export default class ILIATHow extends React.Component{
         return (
         <div key={comment.id}>
             <div className="iliat_timeline">
-              <span className="highlight_hours"dangerouslySetInnerHTML={this.rawMarkup(comment.Total)}></span>
+              <span className="highlight_hours" dangerouslySetInnerHTML={this.rawMarkup(comment.Total)}></span>
               <span className="big_equal_sign">
                 <div className="iliat_equal_piece"></div>
                 <div className="iliat_equal_piece"></div>

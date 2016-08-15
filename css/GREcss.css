@@ -248,7 +248,9 @@ html{
   text-transform: uppercase;
   color: #a96eb8;
 }
-
+#gre .highlight_hours p{
+  display: inline-block;
+}
 #gre .big_equal_sign{
   display: inline-block;
   margin: 0 1.2em;
@@ -265,9 +267,12 @@ html{
   display: inline-block;
 }
 
-#gre .timetable h4{
+#gmat .timetable h4{
   font-size: 2.5em;
-  margin: 0.2em 0;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  text-align: center;
 }
 
 #gre .vertical_divider{
