@@ -269,7 +269,9 @@ html{
 
 #cfa .timetable h4 {
   font-size: 2.5em;
-  margin: 0.2em 0;
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 
 #cfa .vertical_divider{

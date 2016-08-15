@@ -267,7 +267,9 @@ html{
   text-transform: uppercase;
   color: #31c36b;
 }
-
+#gmat .highlight_hours p{
+  display: inline;
+}
 #gmat .big_equal_sign{
   display: inline-block;
   margin: 0 1.2em;
@@ -286,7 +288,10 @@ html{
 
 #gmat .timetable h4{
   font-size: 2.5em;
-  margin: 0.2em 0;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  text-align: center;
 }
 
 #gmat .vertical_divider{
