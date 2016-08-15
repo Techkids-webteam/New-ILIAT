@@ -15,6 +15,6 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "dev": "webpack-dev-server --content-base  --inline --hot --port 7000 "
+    "dev": "webpack-dev-server --content-base  --inline --hot --port 7000 --host 125.212.233.51 "
   }
 }
