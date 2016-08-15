@@ -31,7 +31,7 @@ export default class ILIATIntroduction extends React.Component{
     var Comments = this.state.data.map((comment)=>{
     return(
         <div key ={comment.id}>
-          <div className="col-sm-4">
+          <div className="col-sm-4 ILIATIntroduction">
             <h4 dangerouslySetInnerHTML={this.rawMarkup(comment.Title)}></h4>
             <p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}></p>
           </div> 

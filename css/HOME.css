@@ -32,10 +32,11 @@ html{
   text-align: left;
   font-weight: 300;
 }
-#home .header_dropdown_list li Link{
+#home .header_dropdown_list li a{
   font-size: 1.8rem;
   margin-left: 20px;
   margin-top: 10px;
+  font-weight: 400;
 }
 
 #home .header_dropdown_list li a:hover{
@@ -101,6 +102,7 @@ html{
 
 #home .footer_col{
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #home .footer h3{
@@ -133,9 +135,11 @@ html{
 }
 #home .intruduce_right{
   position: relative;
-  top: 20px;
-  left: 30px;
   padding: 0;
+}
+#home .intruduce_right_point{
+  position: relative;
+  left: -50px;
 }
 #home .intruduce h1{
   font-size: 6rem;
@@ -156,10 +160,15 @@ html{
   top:14px;
   right: 10px;
 }
+#home .intruduce_right_student{
+  position: relative;
+  left: 40px;
+}
 #home .intruduce_right_name strong{
   font-size: 2.4rem;
   font-family:'Source Sans Pro', sans-serif;
-  font-weight:600;  
+  font-weight:600;
+  white-space: nowrap;  
 
 }
 #home .intruduce_content p{
@@ -198,7 +207,9 @@ html{
 }
 #home .ILIATintruducePoint_img{
   margin-top: 10px;
+  margin-right: 10px;
 }
+
 @media screen and (min-width: 768px){
 #home .full_banner{
   background: gray url('/images/GMAT_Banner.png') center center no-repeat;
@@ -208,9 +219,13 @@ html{
   padding: 17px 54px;
 }
 #home .header_dropdown_list li a{
-  font-size: 1.8rem;
-  padding: 5px 31px;
-  margin: 0;  
+  font-size: 1.6rem;
+  padding: 15px 39px;
+  margin: 0;
+}
+
+#home .footer_col{
+  text-align: left;
 }
 }
 @keyframes banner_arrow_animate {
@@ -231,7 +246,7 @@ html{
 
 #home .slick-dots{
   padding: 0;
-  margin: 0 0 0 330px;
+  margin: 0 0 0 150px;
   text-align: center;
   margin-top: 30px;
   font-size: 0px;

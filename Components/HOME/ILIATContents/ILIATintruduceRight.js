@@ -49,14 +49,15 @@ export default class ILIATintruduceRight extends React.Component{
         var Comments = this.state.data.map((comment)=>{
         return (
             <div key={comment.id}>
-                <div className="col-sm-offset-6 col-sm-4 intruduce_right">
-                   <h2 className="intruduce_right_name" dangerouslySetInnerHTML={this.rawMarkup(comment.Name)}></h2>
-                    <div className="intruduce_right_img">   
+                <div className="row intruduce_right">
+                    <h2 className="col-sm-offset-3 col-sm-4 intruduce_right_name" dangerouslySetInnerHTML={this.rawMarkup(comment.Name)}></h2>
+                    <div className="col-sm-3 intruduce_right_img">   
                         <img src={comment.url}/> 
                     </div>
                 </div>
+                  
                 <div className="row">
-                    <div className=" col-sm-11 text-right intruduce_content">
+                    <div className=" col-sm-9 text-right intruduce_content">
                         <p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}></p>
                     </div>
                 </div>
@@ -67,10 +68,10 @@ export default class ILIATintruduceRight extends React.Component{
           <div className="intruduce hidden-xs">
             <h1 className="text-center">HỌC VIÊN NGHĨ GÌ VỀ ILIAT</h1>
             <div className="row">
-              <div className="col-sm-7">
+              <div className="col-sm-7 intruduce_right_student">
                 <div id="slick_slider">{Comments}</div>
               </div>
-              <div className="col-sm-4">
+              <div className="col-sm-4 intruduce_right_point ">
                 <ILIATintruducePoint/>
               </div>
             </div>

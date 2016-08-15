@@ -31,7 +31,6 @@ html{
 #ielts .full_banner{
   min-height: 100vh;
   -webkit-min-height: 100vh;
-  padding-bottom: 90px;
   position: relative;
 }
 
@@ -431,7 +430,7 @@ html{
   margin-bottom: 15px;
 }
 #ielts .ILIATTuitionFee_content{
-   padding: 0 1.2rem;
+   padding: 0 3.2rem;
 }
 #ielts .ILIATTuitionFee_content p{
   margin: 0;
@@ -507,6 +506,7 @@ html{
   color: #ffffff;
 }
 @media screen and (min-width: 768px){
+
 #ielts #header_nav{
   text-align: center;
 }
@@ -576,7 +576,9 @@ html{
   border-width: 30px;
   right: -60px;
 }
-
+#ielts .ILIATTuitionFee_content{
+   padding: 0 1.2rem;
+}
 #ielts .footer{
   text-align: left;
 }

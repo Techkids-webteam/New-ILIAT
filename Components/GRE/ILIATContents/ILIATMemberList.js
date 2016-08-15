@@ -64,7 +64,7 @@ export default class ILIATMemberList extends React.Component{
                 <h4 dangerouslySetInnerHTML={this.rawMarkup(comment.Name)}></h4>
                 <p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}></p>
               </div>
-            </div>  
+          </div>  
         )
       })
       return(

@@ -8,27 +8,27 @@ html{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#header{
+#cfa #header{
   background: #ffffff;
   border: 1px solid #a1a1a1;
   border-radius: 0;
 }
 
-.navbar-brand{
+#cfa .navbar-brand{
   padding: 12px 0 8px 15px;
   line-height: 44px;
 }
 
-.navbar-brand img{
+#cfa .navbar-brand img{
   max-height: 31px;
   width: auto;
 }
 
-#header_nav{
+#cfa #header_nav{
   text-align: right;
 }
 
-.full_banner{
+#cfa .full_banner{
   min-height: 100vh;
   padding-bottom: 90px;
   position: relative;
@@ -39,17 +39,17 @@ html{
   background-size: cover;
 }
 
-.full_banner h1{
+#cfa .full_banner h1{
   font-family: 'SVN-Agency FB', sans-serif;
   font-weight: bold;
   font-size: 6rem;
   margin: 0;
 }
-.full_banner h1:last-of-type{
+#cfa .full_banner h1:last-of-type{
   margin-bottom: 15px;
 }
 
-.iliat_button{
+#cfa .iliat_button{
   background: #6eb4b8;
   color: #ffffff;
   border: 1px solid #6eb4b8;
@@ -61,12 +61,12 @@ html{
   font-weight: 100;
 }
 
-.iliat_button:hover{
+#cfa .iliat_button:hover{
   background: #ffffff;
   color: #6eb4b8;
 }
 
-.fullbanner_content{
+#cfa .fullbanner_content{
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -75,7 +75,7 @@ html{
   white-space: nowrap;
 }
 
-.banner_arrow{
+#cfa .banner_arrow{
   border: 0 none;
   background: transparent;
   position: absolute;
@@ -85,7 +85,7 @@ html{
   animation: banner_arrow_animate .5s infinite ease-in-out alternate;
 }
 
-.iliat_dropdown_button{
+#cfa .iliat_dropdown_button{
   width: 100%;
   border: 2px solid #4d4d4d;
   background: #ffffff;
@@ -96,14 +96,14 @@ html{
   font-weight: 400;
 }
 
-.dropdown_plus{
+#cfa .dropdown_plus{
   position: absolute;
   top: 50%;
   right: 20px;
   transform: translate(0, -50%);
 }
 
-.iliat_dropdown{
+#cfa .iliat_dropdown{
   position: static;
   float: none;
   box-shadow: none;
@@ -113,7 +113,7 @@ html{
   padding: 0;
 }
 
-.iliat_dropdown li a{
+#cfa .iliat_dropdown li a{
   border: 2px solid #4d4d4d;
   background: #4d4d4d;
   color: #ffffff;
@@ -122,28 +122,28 @@ html{
   font-weight: 400;
 }
 
-.iliat_dropdown li a:hover{
+#cfa .iliat_dropdown li a:hover{
   background: #ffffff;
   color: #4d4d4d;
 }
 
-.iliat_navigator_desktop{
+#cfa .iliat_navigator_desktop{
   top: 60px;
   left: 54px;
 }
 
-.iliat_navigator_mobile{
+#cfa .iliat_navigator_mobile{
   margin: 15px 0;
 }
 
-.iliat_navigator_list{
+#cfa .iliat_navigator_list{
   background: #4d4d4d;
   border-radius: 10px;
   padding: 10px 0;
   margin: 0;
 }
 
-.iliat_navigator_list li{
+#cfa .iliat_navigator_list li{
   list-style: none;
   position: relative;
   padding: 10px 20px;
@@ -151,30 +151,30 @@ html{
   font-weight: bold;
 }
 
-.iliat_navigator_list li a{
+#cfa .iliat_navigator_list li a{
   color: inherit;
   padding: 0;
 }
 
-.iliat_navigator_list li a:hover{
+#cfa .iliat_navigator_list li a:hover{
   background: transparent;
   text-decoration: underline;
 }
-.iliat_navigator_list li a:focus,
-.iliat_navigator_list li a:active{
+#cfa .iliat_navigator_list li a:focus,
+#cfa .iliat_navigator_list li a:active{
   background: transparent;
 }
 
-.iliat_navigator_list .highlight{
+#cfa .iliat_navigator_list .highlight{
   background: #252525;
   border-bottom: 1px solid #616161;
 }
 
-.iliat_navigator_list .active{
+#cfa .iliat_navigator_list .active{
   background: #6eb4b8;
 }
 
-.iliat_navigator_list .active:after{
+#cfa .iliat_navigator_list .active:after{
   content: "";
   border: 10px solid transparent;
   border-left: 10px solid #6eb4b8;
@@ -187,7 +187,7 @@ html{
   transform: translate(0, -10px);
 }
 
-.iliat_navigator_list button{
+#cfa .iliat_navigator_list button{
   padding: 15px;
   width: 6em;
   background: #6eb4b8;
@@ -201,11 +201,11 @@ html{
   display: block;
 }
 
-.ilat_content_block{
+#cfa .ilat_content_block{
   padding: 60px 0;
 }
 
-.ilat_content_block h2{
+#cfa .ilat_content_block h2{
   font-family: 'SVN-Agency FB', sans-serif;
   font-weight: bold;
   font-size: 3rem;
@@ -214,65 +214,65 @@ html{
   text-transform: uppercase;
 }
 
-.ilat_content_block h4{
+#cfa .ilat_content_block h4{
   text-align: center;
 }
 
-.ilat_content_block h4.text-left{
+#cfa .ilat_content_block h4.text-left{
   text-align: left;
 }
 
-.gray_bg{
+#cfa .gray_bg{
   background: #e6e6e6;
 }
 
-.iliat_member_thumbnail{
+#cfa .iliat_member_thumbnail{
   display: block;
   margin: 0 auto 25px;
   border: 4px solid #6eb4b8;
 }
 
-.iliat_timeline{
+#cfa .iliat_timeline{
   margin-bottom: 30px;
   font-size: 0.5rem;
 }
 
-.iliat_timeline *{
+#cfa .iliat_timeline *{
   vertical-align: bottom;
 }
 
-.highlight_hours {
+#cfa .highlight_hours {
   font-family: 'SVN-Agency FB', sans-serif;
   font-weight: bold;
   font-size:  4em;
   text-transform: uppercase;
   color: #6eb4b8;
 }
-.highlight_hours p{
+#cfa .highlight_hours p{
   display: inline;
 }
-.big_equal_sign{
+#cfa .big_equal_sign{
   display: inline-block;
   margin: 0 1.2em;
 }
 
-.iliat_equal_piece{
+#cfa .iliat_equal_piece{
   height: 1em;
   margin: 1.1em 0;
   width: 5em;
   background: #6eb4b8;
 }
 
-.timetable{
+#cfa .timetable{
   display: inline-block;
 }
 
-.timetable h4 {
+#cfa .timetable h4 {
   font-size: 2.5em;
   margin: 0.2em 0;
 }
 
-.vertical_divider{
+#cfa .vertical_divider{
   display: inline-block;
   width: 2px;
   height: 6em;
@@ -280,7 +280,7 @@ html{
   margin: 0 4em;
 }
 
-.iliat_timeline .iliat_button{
+#cfa .iliat_timeline .iliat_button{
   width: 7em;
   font-size: 2em;
   margin: 0;
@@ -288,11 +288,11 @@ html{
   line-height: 1.2em;
 }
 
-.iliat_steps{
+#cfa .iliat_steps{
   margin-top: 30px;
 }
 
-.iliat_step_arrow{
+#cfa .iliat_step_arrow{
   background: #6eb4b8;
   color: #ffffff;
   font-weight: bold;
@@ -306,7 +306,7 @@ html{
   left: -7px;
 }
 
-.iliat_step_arrow:before{
+#cfa .iliat_step_arrow:before{
   content: "";
   border: 15px solid transparent;
   border-left: 15px solid #ffffff;
@@ -315,7 +315,7 @@ html{
   position: absolute;
 }
 
-.iliat_step_arrow:after{
+#cfa .iliat_step_arrow:after{
   content: "";
   border: 15px solid transparent;
   border-left: 15px solid #6eb4b8;
@@ -324,7 +324,7 @@ html{
   position: absolute;
 }
 
-.price_tag{
+#cfa .price_tag{
   background: #ffffff;
   border: 5px dashed #6eb4b8;
   font-size: 0;
@@ -336,7 +336,7 @@ html{
   text-align: center;
 }
 
-.price_tag:before{
+#cfa .price_tag:before{
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -344,34 +344,36 @@ html{
   height: 100%;
 }
 
-.price_tag_content{
+#cfa .price_tag_content{
   display: inline-block;
   vertical-align: middle;
   font-size: 1rem;
   text-align: center;
 }
-
-.price_tag_content h3,
-.price_tag_content p{
+#cfa .ILIATIntroduction h4 {
+  font-weight: 600;
+}
+#cfa .price_tag_content h3,
+#cfa .price_tag_content p{
   margin: 10px;
 }
 
-.price_tag_content p{
+#cfa .price_tag_content p{
   font-size: 14px;
 }
 
-.price_tag_content h3 strong p{
+#cfa .price_tag_content h3 strong p{
   font-size: 2rem;
   color: #000000;
 }
-.ILIATTuitionFee_Content{
+#cfa .ILIATTuitionFee_Content{
   font-size: 1.5rem;
 }
-.ILIATTuitionFee_StudentandWork{
+#cfa .ILIATTuitionFee_StudentandWork{
   font-size: 2rem;
 }
 
-.footer{
+#cfa .footer{
   background: #4d4d4d;
   padding: 30px 0;
   color: #ffffff;
@@ -379,39 +381,39 @@ html{
   text-align: center;
 }
 
-.footer_col{
+#cfa .footer_col{
   margin-bottom: 30px;
 }
 
-.footer h3{
+#cfa .footer h3{
   font-size: 3rem;
   margin-top: 0;
 }
 
-.footer a{
+#cfa .footer a{
   color: inherit;
 }
 
-.footer nav a{
+#cfa .footer nav a{
   display: block;
   font-size: 2rem;
   font-weight: 100;
 }
 
-.footer_logo{
+#cfa .footer_logo{
   margin-bottom: 15px;
 }
 
 @media screen and (min-width: 768px){
-  #header_nav{
+ #cfa  #header_nav{
     text-align: center;
   }
-  #header_nav .center_menu{
+ #cfa  #header_nav .center_menu{
     display: inline-block;
     float: none;
   }
 
-  #header_nav .iliat_header_button{
+ #cfa  #header_nav .iliat_header_button{
     background: #6eb4b8;
     color: #ffffff;
     border: 1px solid #6eb4b8;
@@ -421,11 +423,11 @@ html{
     text-transform: uppercase;
   }
 
-  #header_nav .iliat_header_button:hover{
+ #cfa  #header_nav .iliat_header_button:hover{
     background: transparent;
     color: #6eb4b8;
   }
-  .iliat_button{
+ #cfa  .iliat_button{
   background: #6eb4b8;
   color: #ffffff;
   border: 1px solid #6eb4b8;
@@ -437,33 +439,33 @@ html{
   font-weight: 100;
 }
 
-  .ilat_content_block h2{
-    font-size: 7rem;
-    text-align: left;
-  }
+#cfa  .ilat_content_block h2{
+  font-size: 7rem;
+  text-align: left;
+}
 
-  .iliat_timeline{
-    font-size: 1rem;
-  }
+#cfa  .iliat_timeline{
+  font-size: 1rem;
+}
 
-  .iliat_step_arrow{
-    height: 60px;
-    padding-left: 30px;
-    font-size: 3em;
-  }
+#cfa  .iliat_step_arrow{
+  height: 60px;
+  padding-left: 30px;
+  font-size: 3em;
+}
 
-  .iliat_step_arrow:before{
-    border-width: 30px;
-  }
+#cfa .iliat_step_arrow:before{
+  border-width: 30px;
+}
 
-  .iliat_step_arrow:after{
-    border-width: 30px;
-    right: -60px;
-  }
+#cfa  .iliat_step_arrow:after{
+  border-width: 30px;
+  right: -60px;
+}
 
-  .footer{
-    text-align: left;
-  }
+#cfa  .footer{
+  text-align: left;
+}
 }
 
 @keyframes banner_arrow_animate {
